@@ -1,5 +1,6 @@
 # GAN
-### Установка пакетов: pip requirements.txt
+### Установка пакетов: 
+pip requirements.txt
 ### Препроцессинг данных: 
 
 python preporocessing.py \
@@ -8,6 +9,6 @@ python preporocessing.py \
     --output_name=spine_segmentation_train_1_fold \
     --output_dir=./datasets/tfrecords_spine_segmentation_with_superpixels
     
-Тренировка:
+### Тренировка:
 python train_gan.py
 
