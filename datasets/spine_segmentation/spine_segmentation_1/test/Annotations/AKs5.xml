@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<file-format>
+    <meta-header xfer="1.2.840.10008.1.2.1" name="Little Endian Explicit">
+        <element tag="0002,0000" vr="UL" vm="1" len="4" name="FileMetaInformationGroupLength">208</element>
+        <element tag="0002,0001" vr="OB" vm="1" len="2" name="FileMetaInformationVersion" binary="hidden"></element>
+        <element tag="0002,0002" vr="UI" vm="1" len="26" name="MediaStorageSOPClassUID">1.2.840.10008.5.1.4.1.1.4</element>
+        <element tag="0002,0003" vr="UI" vm="1" len="64" name="MediaStorageSOPInstanceUID">1.2.276.0.28.3.3771420412.3473473536.42.3616.2013040511324906700</element>
+        <element tag="0002,0010" vr="UI" vm="1" len="20" name="TransferSyntaxUID">1.2.840.10008.1.2.1</element>
+        <element tag="0002,0012" vr="UI" vm="1" len="28" name="ImplementationClassUID">1.2.276.0.7230010.3.0.3.6.0</element>
+        <element tag="0002,0013" vr="SH" vm="1" len="16" name="ImplementationVersionName">OFFIS_DCMTK_360</element>
+    </meta-header>
+    <data-set xfer="1.2.840.10008.1.2.1" name="Little Endian Explicit">
+        <element tag="0008,0005" vr="CS" vm="1" len="10" name="SpecificCharacterSet">ISO_IR 100</element>
+        <element tag="0008,0008" vr="CS" vm="4" len="32" name="ImageType">DERIVED\SECONDARY\OTHER\MEVISLAB</element>
+        <element tag="0008,0016" vr="UI" vm="1" len="26" name="SOPClassUID">1.2.840.10008.5.1.4.1.1.4</element>
+        <element tag="0008,0018" vr="UI" vm="1" len="64" name="SOPInstanceUID">1.2.276.0.28.3.3771420412.3473473536.42.3616.2013040511324906700</element>
+        <element tag="0008,0020" vr="DA" vm="1" len="8" name="StudyDate">20120926</element>
+        <element tag="0008,0021" vr="DA" vm="1" len="8" name="SeriesDate">20120926</element>
+        <element tag="0008,0022" vr="DA" vm="1" len="8" name="AcquisitionDate">20120926</element>
+        <element tag="0008,0023" vr="DA" vm="1" len="8" name="ContentDate">20120926</element>
+        <element tag="0008,002a" vr="DT" vm="1" len="22" name="AcquisitionDateTime">20120926160315.000000</element>
+        <element tag="0008,0030" vr="TM" vm="1" len="14" name="StudyTime">160209.000000</element>
+        <element tag="0008,0031" vr="TM" vm="1" len="6" name="SeriesTime">160315</element>
+        <element tag="0008,0032" vr="TM" vm="1" len="14" name="AcquisitionTime">160315.000000</element>
+        <element tag="0008,0033" vr="TM" vm="1" len="14" name="ContentTime">160315.000000</element>
+        <element tag="0008,0050" vr="SH" vm="0" len="0" name="AccessionNumber"></element>
+        <element tag="0008,0060" vr="CS" vm="1" len="2" name="Modality">MR</element>
+        <element tag="0008,0070" vr="LO" vm="1" len="18" name="Manufacturer">GE MEDICAL SYSTEMS</element>
+        <element tag="0008,0080" vr="LO" vm="1" len="28" name="InstitutionName">KCUS INSTITUT ZA RADIOLOGIJU</element>
+        <element tag="0008,0090" vr="PN" vm="0" len="0" name="ReferringPhysicianName"></element>
+        <element tag="0008,1010" vr="SH" vm="1" len="8" name="StationName">GEMSGEMS</element>
+        <element tag="0008,1030" vr="LO" vm="1" len="4" name="StudyDescription">L/S</element>
+        <element tag="0008,103e" vr="LO" vm="1" len="12" name="SeriesDescription">Sag T2 frFSE</element>
+        <element tag="0008,1040" vr="LO" vm="1" len="8" name="InstitutionalDepartmentName">DEFAULT</element>
+        <element tag="0008,1090" vr="LO" vm="1" len="12" name="ManufacturerModelName">SIGNA EXCITE</element>
+        <sequence tag="0008,1140" vr="SQ" card="2" len="212" name="ReferencedImageSequence">
+            <item card="2" len="98">
+                <element tag="0008,1150" vr="UI" vm="1" len="26" name="ReferencedSOPClassUID">1.2.840.10008.5.1.4.1.1.4</element>
+                <element tag="0008,1155" vr="UI" vm="1" len="56" name="ReferencedSOPInstanceUID">1.2.840.113619.2.176.3596.10643214.10426.1348640951.768</element>
+            </item>
+            <item card="2" len="98">
+                <element tag="0008,1150" vr="UI" vm="1" len="26" name="ReferencedSOPClassUID">1.2.840.10008.5.1.4.1.1.4</element>
+                <element tag="0008,1155" vr="UI" vm="1" len="56" name="ReferencedSOPInstanceUID">1.2.840.113619.2.176.3596.10643214.10426.1348640951.769</element>
+            </item>
+        </sequence>
+        <element tag="0010,0000" vr="UL" vm="1" len="4" name="GenericGroupLength">68</element>
+        <element tag="0010,0010" vr="PN" vm="1" len="4" name="PatientName">AKs5</element>
+        <element tag="0010,0020" vr="LO" vm="0" len="0" name="PatientID"></element>
+        <element tag="0010,0030" vr="DA" vm="0" len="0" name="PatientBirthDate"></element>
+        <element tag="0010,0040" vr="CS" vm="1" len="2" name="PatientSex">F</element>
+        <element tag="0010,1010" vr="AS" vm="1" len="4" name="PatientAge">022Y</element>
+        <element tag="0010,1030" vr="DS" vm="1" len="2" name="PatientWeight">70</element>
+        <element tag="0010,21b0" vr="LT" vm="0" len="0" name="AdditionalPatientHistory"></element>
+        <element tag="0018,0000" vr="UL" vm="1" len="4" name="GenericGroupLength">470</element>
+        <element tag="0018,0020" vr="CS" vm="1" len="2" name="ScanningSequence">SE</element>
+        <element tag="0018,0021" vr="CS" vm="2" len="6" name="SequenceVariant">SK\OSP</element>
+        <element tag="0018,0022" vr="CS" vm="3" len="26" name="ScanOptions">NPW\TRF_GEMS\FILTERED_GEMS</element>
+        <element tag="0018,0023" vr="CS" vm="1" len="2" name="MRAcquisitionType">2D</element>
+        <element tag="0018,0025" vr="CS" vm="1" len="2" name="AngioFlag">N</element>
+        <element tag="0018,0050" vr="DS" vm="1" len="2" name="SliceThickness">3</element>
+        <element tag="0018,0080" vr="DS" vm="1" len="4" name="RepetitionTime">3700</element>
+        <element tag="0018,0081" vr="DS" vm="1" len="6" name="EchoTime">86.912</element>
+        <element tag="0018,0082" vr="DS" vm="1" len="2" name="InversionTime">0</element>
+        <element tag="0018,0083" vr="DS" vm="1" len="4" name="NumberOfAverages">1.5</element>
+        <element tag="0018,0084" vr="DS" vm="1" len="10" name="ImagingFrequency">63.858953</element>
+        <element tag="0018,0085" vr="SH" vm="1" len="2" name="ImagedNucleus">1H</element>
+        <element tag="0018,0086" vr="IS" vm="1" len="2" name="EchoNumbers">1</element>
+        <element tag="0018,0087" vr="DS" vm="1" len="4" name="MagneticFieldStrength">1.5</element>
+        <element tag="0018,0088" vr="DS" vm="1" len="2" name="SpacingBetweenSlices">4</element>
+        <element tag="0018,0091" vr="IS" vm="1" len="2" name="EchoTrainLength">21</element>
+        <element tag="0018,0093" vr="DS" vm="1" len="4" name="PercentSampling">100</element>
+        <element tag="0018,0094" vr="DS" vm="1" len="4" name="PercentPhaseFieldOfView">100</element>
+        <element tag="0018,0095" vr="DS" vm="1" len="8" name="PixelBandwidth">162.773</element>
+        <element tag="0018,1000" vr="LO" vm="1" len="16" name="DeviceSerialNumber">000000000000GEMS</element>
+        <element tag="0018,1020" vr="LO" vm="3" len="42" name="SoftwareVersions">12\LX\MR Software release:12.0_M5B_0846.d</element>
+        <element tag="0018,1030" vr="LO" vm="1" len="10" name="ProtocolName">L SPINE/3</element>
+        <element tag="0018,1088" vr="IS" vm="1" len="2" name="HeartRate">60</element>
+        <element tag="0018,1090" vr="IS" vm="1" len="2" name="CardiacNumberOfImages">0</element>
+        <element tag="0018,1094" vr="IS" vm="1" len="2" name="TriggerWindow">0</element>
+        <element tag="0018,1100" vr="DS" vm="1" len="4" name="ReconstructionDiameter">360</element>
+        <element tag="0018,1250" vr="SH" vm="1" len="8" name="ReceiveCoilName">8CTL456</element>
+        <element tag="0018,1310" vr="US" vm="4" len="8" name="AcquisitionMatrix">512\0\0\320</element>
+        <element tag="0018,1312" vr="CS" vm="1" len="4" name="InPlanePhaseEncodingDirection">COL</element>
+        <element tag="0018,1314" vr="DS" vm="1" len="2" name="FlipAngle">90</element>
+        <element tag="0018,1315" vr="CS" vm="1" len="2" name="VariableFlipAngleFlag">N</element>
+        <element tag="0018,1316" vr="DS" vm="1" len="6" name="SAR">1.0295</element>
+        <element tag="0018,5100" vr="CS" vm="1" len="4" name="PatientPosition">HFS</element>
+        <element tag="0020,000d" vr="UI" vm="1" len="56" name="StudyInstanceUID">1.2.840.113619.2.176.3596.10643214.10502.1348640783.300</element>
+        <element tag="0020,000e" vr="UI" vm="1" len="56" name="SeriesInstanceUID">1.2.840.113619.2.176.3596.10643214.10502.1348640783.302</element>
+        <element tag="0020,0010" vr="SH" vm="1" len="4" name="StudyID">947</element>
+        <element tag="0020,0011" vr="IS" vm="1" len="2" name="SeriesNumber">3</element>
+        <element tag="0020,0012" vr="IS" vm="1" len="2" name="AcquisitionNumber">1</element>
+        <element tag="0020,0013" vr="IS" vm="1" len="2" name="InstanceNumber">1</element>
+        <element tag="0020,0032" vr="DS" vm="3" len="24" name="ImagePositionPatient">21.8943\-227.819\164.404</element>
+        <element tag="0020,0037" vr="DS" vm="6" len="34" name="ImageOrientationPatient">-0\1\0\0.0520943088\-0\-0.99864217</element>
+        <element tag="0020,0052" vr="UI" vm="1" len="56" name="FrameOfReferenceUID">1.2.840.113619.2.176.3596.10643214.10502.1348640783.299</element>
+        <element tag="0020,0060" vr="CS" vm="0" len="0" name="Laterality"></element>
+        <element tag="0020,1002" vr="IS" vm="1" len="2" name="ImagesInAcquisition">15</element>
+        <element tag="0020,1040" vr="LO" vm="0" len="0" name="PositionReferenceIndicator"></element>
+        <element tag="0020,4000" vr="LT" vm="1" len="8" name="ImageComments">MeVisLab</element>
+        <element tag="0028,0000" vr="UL" vm="1" len="4" name="GenericGroupLength">190</element>
+        <element tag="0028,0002" vr="US" vm="1" len="2" name="SamplesPerPixel">1</element>
+        <element tag="0028,0004" vr="CS" vm="1" len="12" name="PhotometricInterpretation">MONOCHROME2</element>
+        <element tag="0028,0008" vr="IS" vm="1" len="2" name="NumberOfFrames">15</element>
+        <element tag="0028,0010" vr="US" vm="1" len="2" name="Rows">512</element>
+        <element tag="0028,0011" vr="US" vm="1" len="2" name="Columns">512</element>
+        <element tag="0028,0030" vr="DS" vm="2" len="14" name="PixelSpacing">0.7031\0.7031</element>
+        <element tag="0028,0100" vr="US" vm="1" len="2" name="BitsAllocated">16</element>
+        <element tag="0028,0101" vr="US" vm="1" len="2" name="BitsStored">16</element>
+        <element tag="0028,0102" vr="US" vm="1" len="2" name="HighBit">15</element>
+        <element tag="0028,0103" vr="US" vm="1" len="2" name="PixelRepresentation">1</element>
+        <element tag="0028,0106" vr="SS" vm="1" len="2" name="SmallestImagePixelValue">0</element>
+        <element tag="0028,0107" vr="SS" vm="1" len="2" name="LargestImagePixelValue">2020</element>
+        <element tag="0028,1050" vr="DS" vm="1" len="16" name="WindowCenter">864.733333333333</element>
+        <element tag="0028,1051" vr="DS" vm="1" len="16" name="WindowWidth">1729.66666666667</element>
+        <element tag="0032,000a" vr="CS" vm="1" len="10" name="RETIRED_StudyStatusID">COMPLETED</element>
+        <element tag="0032,4000" vr="LT" vm="0" len="0" name="RETIRED_StudyComments"></element>
+        <element tag="0040,0000" vr="UL" vm="1" len="4" name="GenericGroupLength">16</element>
+        <element tag="0040,0253" vr="SH" vm="0" len="0" name="PerformedProcedureStepID"></element>
+        <element tag="0040,0254" vr="LO" vm="0" len="0" name="PerformedProcedureStepDescription"></element>
+        <element tag="7fe0,0000" vr="UL" vm="1" len="4" name="GenericGroupLength">7864332</element>
+        <element tag="7fe0,0010" vr="OW" vm="1" len="7864320" name="PixelData" loaded="no" binary="hidden"></element>
+    </data-set>
+</file-format>

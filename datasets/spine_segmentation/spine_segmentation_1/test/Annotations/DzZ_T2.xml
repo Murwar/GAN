@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<file-format>
+<meta-header xfer="1.2.840.10008.1.2.1" name="Little Endian Explicit">
+<element tag="0002,0000" vr="UL" vm="1" len="4" name="FileMetaInformationGroupLength">208</element>
+<element tag="0002,0001" vr="OB" vm="1" len="2" name="FileMetaInformationVersion" binary="hidden"></element>
+<element tag="0002,0002" vr="UI" vm="1" len="26" name="MediaStorageSOPClassUID">1.2.840.10008.5.1.4.1.1.4</element>
+<element tag="0002,0003" vr="UI" vm="1" len="64" name="MediaStorageSOPInstanceUID">1.2.276.0.28.3.3771420412.3473473536.42.4432.2011101313110877300</element>
+<element tag="0002,0010" vr="UI" vm="1" len="20" name="TransferSyntaxUID">1.2.840.10008.1.2.1</element>
+<element tag="0002,0012" vr="UI" vm="1" len="28" name="ImplementationClassUID">1.2.276.0.7230010.3.0.3.6.0</element>
+<element tag="0002,0013" vr="SH" vm="1" len="16" name="ImplementationVersionName">OFFIS_DCMTK_360</element>
+</meta-header>
+<data-set xfer="1.2.840.10008.1.2.1" name="Little Endian Explicit">
+<element tag="0008,0005" vr="CS" vm="1" len="10" name="SpecificCharacterSet">ISO_IR 100</element>
+<element tag="0008,0008" vr="CS" vm="4" len="32" name="ImageType">DERIVED\SECONDARY\OTHER\MEVISLAB</element>
+<element tag="0008,0012" vr="DA" vm="1" len="8" name="InstanceCreationDate">20101008</element>
+<element tag="0008,0013" vr="TM" vm="1" len="6" name="InstanceCreationTime">114406</element>
+<element tag="0008,0014" vr="UI" vm="1" len="24" name="InstanceCreatorUID">1.3.46.670589.11.5555.5</element>
+<element tag="0008,0016" vr="UI" vm="1" len="26" name="SOPClassUID">1.2.840.10008.5.1.4.1.1.4</element>
+<element tag="0008,0018" vr="UI" vm="1" len="64" name="SOPInstanceUID">1.2.276.0.28.3.3771420412.3473473536.42.4432.2011101313110877300</element>
+<element tag="0008,0020" vr="DA" vm="1" len="8" name="StudyDate">20101008</element>
+<element tag="0008,0021" vr="DA" vm="1" len="8" name="SeriesDate">20101008</element>
+<element tag="0008,0022" vr="DA" vm="1" len="8" name="AcquisitionDate">20101008</element>
+<element tag="0008,0023" vr="DA" vm="1" len="8" name="ContentDate">20111013</element>
+<element tag="0008,0030" vr="TM" vm="1" len="6" name="StudyTime">113934</element>
+<element tag="0008,0031" vr="TM" vm="1" len="12" name="SeriesTime">114127.85000</element>
+<element tag="0008,0032" vr="TM" vm="1" len="10" name="AcquisitionTime">114127.85</element>
+<element tag="0008,0033" vr="TM" vm="1" len="14" name="ContentTime">151108.772000</element>
+<element tag="0008,0050" vr="SH" vm="1" len="8" name="AccessionNumber">1049797</element>
+<element tag="0008,0060" vr="CS" vm="1" len="2" name="Modality">MR</element>
+<element tag="0008,0070" vr="LO" vm="1" len="24" name="Manufacturer">Philips Medical Systems</element>
+<element tag="0008,0080" vr="LO" vm="1" len="20" name="InstitutionName">Kreisklinikum Siegen</element>
+<element tag="0008,0090" vr="PN" vm="1" len="18" name="ReferringPhysicianName">Praxis Dr. Richter</element>
+<element tag="0008,1010" vr="SH" vm="1" len="4" name="StationName">MR1</element>
+<element tag="0008,1030" vr="LO" vm="1" len="4" name="StudyDescription">LWS</element>
+<element tag="0008,103e" vr="LO" vm="1" len="18" name="SeriesDescription">T2W/TSE SAG CLEAR</element>
+<element tag="0008,1040" vr="LO" vm="1" len="8" name="InstitutionalDepartmentName">Kernspin</element>
+<element tag="0008,1070" vr="PN" vm="0" len="0" name="OperatorsName"></element>
+<element tag="0008,1080" vr="LO" vm="0" len="0" name="AdmittingDiagnosesDescription"></element>
+<element tag="0008,1090" vr="LO" vm="1" len="6" name="ManufacturerModelName">Intera</element>
+<sequence tag="0008,1111" vr="SQ" card="1" len="270" name="ReferencedPerformedProcedureStepSequence">
+<item card="12" len="262">
+<element tag="0008,0000" vr="UL" vm="1" len="4" name="GenericGroupLength">172</element>
+<element tag="0008,0005" vr="CS" vm="0" len="0" name="SpecificCharacterSet"></element>
+<element tag="0008,0012" vr="DA" vm="1" len="8" name="InstanceCreationDate">20101008</element>
+<element tag="0008,0013" vr="TM" vm="1" len="6" name="InstanceCreationTime">114406</element>
+<element tag="0008,0014" vr="UI" vm="1" len="24" name="InstanceCreatorUID">1.3.46.670589.11.5555.5</element>
+<element tag="0008,1150" vr="UI" vm="1" len="24" name="ReferencedSOPClassUID">1.2.840.10008.3.1.2.3.3</element>
+<element tag="0008,1155" vr="UI" vm="1" len="62" name="ReferencedSOPInstanceUID">1.3.46.670589.11.0.0.11.4.2.0.5555.5.6108.2010100811393410198</element>
+<element tag="0020,0000" vr="UL" vm="1" len="4" name="GenericGroupLength">10</element>
+<element tag="0020,0013" vr="IS" vm="1" len="2" name="InstanceNumber">0</element>
+<element tag="2005,0000" vr="UL" vm="1" len="4" name="PrivateGroupLength">44</element>
+<element tag="2005,0014" vr="LO" vm="1" len="26" name="PrivateCreator">Philips MR Imaging DD 005</element>
+<element tag="2005,1406" vr="SS" vm="1" len="2" name="Unknown Tag &amp; Data">0</element>
+</item>
+</sequence>
+<sequence tag="0008,1140" vr="SQ" card="3" len="372" name="ReferencedImageSequence">
+<item card="3" len="116">
+<element tag="0008,0000" vr="UL" vm="1" len="4" name="GenericGroupLength">104</element>
+<element tag="0008,1150" vr="UI" vm="1" len="26" name="ReferencedSOPClassUID">1.2.840.10008.5.1.4.1.1.4</element>
+<element tag="0008,1155" vr="UI" vm="1" len="62" name="ReferencedSOPInstanceUID">1.3.46.670589.11.0.0.11.4.2.0.5555.5.7564.2010100811402134377</element>
+</item>
+<item card="3" len="116">
+<element tag="0008,0000" vr="UL" vm="1" len="4" name="GenericGroupLength">104</element>
+<element tag="0008,1150" vr="UI" vm="1" len="26" name="ReferencedSOPClassUID">1.2.840.10008.5.1.4.1.1.4</element>
+<element tag="0008,1155" vr="UI" vm="1" len="62" name="ReferencedSOPInstanceUID">1.3.46.670589.11.0.0.11.4.2.0.5555.5.7564.2010100811402106371</element>
+</item>
+<item card="3" len="116">
+<element tag="0008,0000" vr="UL" vm="1" len="4" name="GenericGroupLength">104</element>
+<element tag="0008,1150" vr="UI" vm="1" len="26" name="ReferencedSOPClassUID">1.2.840.10008.5.1.4.1.1.4</element>
+<element tag="0008,1155" vr="UI" vm="1" len="62" name="ReferencedSOPInstanceUID">1.3.46.670589.11.0.0.11.4.2.0.5555.5.7564.2010100811402120374</element>
+</item>
+</sequence>
+<element tag="0008,2111" vr="ST" vm="1" len="36" name="DerivationDescription">JPEG Lossless Compression (Ashvins)</element>
+<element tag="0009,0010" vr="LO" vm="1" len="14" name="PrivateCreator">MeVis eatDicom</element>
+<element tag="0009,1010" vr="LO" vm="1" len="34" name="Unknown Tag &amp; Data">eatDicom v3.00 beta - Sep  5 2011</element>
+<element tag="0009,1011" vr="ST" vm="1" len="56" name="Unknown Tag &amp; Data">-r -v1 D:/Repo/Spine/DzZ_T2 D:/Repo/MarburgDicom/Import</element>
+<element tag="0010,0000" vr="UL" vm="1" len="4" name="GenericGroupLength">86</element>
+<element tag="0010,0010" vr="PN" vm="1" len="12" name="PatientName">Zukic^Dzenan</element>
+<element tag="0010,0020" vr="LO" vm="1" len="10" name="PatientID">0000307984</element>
+<element tag="0010,0030" vr="DA" vm="1" len="8" name="PatientBirthDate">19831030</element>
+<element tag="0010,0040" vr="CS" vm="1" len="2" name="PatientSex">M</element>
+<element tag="0010,1030" vr="DS" vm="1" len="4" name="PatientWeight">90.0</element>
+<element tag="0010,21c0" vr="US" vm="1" len="2" name="PregnancyStatus">4</element>
+<element tag="0018,0020" vr="CS" vm="1" len="2" name="ScanningSequence">SE</element>
+<element tag="0018,0021" vr="CS" vm="1" len="4" name="SequenceVariant">OSP</element>
+<element tag="0018,0022" vr="CS" vm="1" len="2" name="ScanOptions">SP</element>
+<element tag="0018,0023" vr="CS" vm="0" len="0" name="MRAcquisitionType"></element>
+<element tag="0018,0024" vr="SH" vm="0" len="0" name="SequenceName"></element>
+<element tag="0018,0050" vr="DS" vm="1" len="4" name="SliceThickness">4.0</element>
+<element tag="0018,0080" vr="DS" vm="1" len="16" name="RepetitionTime">2666.85131835937</element>
+<element tag="0018,0081" vr="DS" vm="1" len="6" name="EchoTime">110.0</element>
+<element tag="0018,0083" vr="DS" vm="1" len="4" name="NumberOfAverages">3.0</element>
+<element tag="0018,0084" vr="DS" vm="1" len="16" name="ImagingFrequency">63.9012119999999</element>
+<element tag="0018,0085" vr="SH" vm="1" len="2" name="ImagedNucleus">1H</element>
+<element tag="0018,0086" vr="IS" vm="1" len="2" name="EchoNumbers">1</element>
+<element tag="0018,0087" vr="DS" vm="1" len="4" name="MagneticFieldStrength">1.5</element>
+<element tag="0018,0088" vr="DS" vm="1" len="4" name="SpacingBetweenSlices">4.4</element>
+<element tag="0018,0089" vr="IS" vm="1" len="4" name="NumberOfPhaseEncodingSteps">250</element>
+<element tag="0018,0091" vr="IS" vm="1" len="2" name="EchoTrainLength">15</element>
+<element tag="0018,0093" vr="DS" vm="1" len="4" name="PercentSampling">75.0</element>
+<element tag="0018,0094" vr="DS" vm="1" len="6" name="PercentPhaseFieldOfView">100.0</element>
+<element tag="0018,1000" vr="LO" vm="1" len="6" name="DeviceSerialNumber">05555</element>
+<element tag="0018,1030" vr="LO" vm="1" len="18" name="ProtocolName">T2W/TSE SAG CLEAR</element>
+<element tag="0018,1081" vr="IS" vm="1" len="2" name="LowRRValue">0</element>
+<element tag="0018,1082" vr="IS" vm="1" len="2" name="HighRRValue">0</element>
+<element tag="0018,1083" vr="IS" vm="1" len="2" name="IntervalsAcquired">0</element>
+<element tag="0018,1084" vr="IS" vm="1" len="2" name="IntervalsRejected">0</element>
+<element tag="0018,1088" vr="IS" vm="1" len="2" name="HeartRate">0</element>
+<element tag="0018,1100" vr="DS" vm="1" len="6" name="ReconstructionDiameter">350.0</element>
+<element tag="0018,1250" vr="SH" vm="1" len="10" name="ReceiveCoilName">Syn-spine</element>
+<element tag="0018,1251" vr="SH" vm="1" len="2" name="TransmitCoilName">B</element>
+<element tag="0018,1310" vr="US" vm="4" len="8" name="AcquisitionMatrix">336\0\0\250</element>
+<element tag="0018,1312" vr="CS" vm="1" len="4" name="InPlanePhaseEncodingDirection">COL</element>
+<element tag="0018,1314" vr="DS" vm="1" len="4" name="FlipAngle">90.0</element>
+<element tag="0018,5100" vr="CS" vm="1" len="4" name="PatientPosition">HFS</element>
+<element tag="0020,000d" vr="UI" vm="1" len="18" name="StudyInstanceUID">12276073.34.467753</element>
+<element tag="0020,000e" vr="UI" vm="1" len="62" name="SeriesInstanceUID">1.3.46.670589.11.0.0.11.4.2.0.5555.5.7564.2010100811412785399</element>
+<element tag="0020,0010" vr="SH" vm="1" len="10" name="StudyID">339680374</element>
+<element tag="0020,0011" vr="IS" vm="1" len="4" name="SeriesNumber">301</element>
+<element tag="0020,0012" vr="IS" vm="1" len="2" name="AcquisitionNumber">3</element>
+<element tag="0020,0013" vr="IS" vm="1" len="2" name="InstanceNumber">1</element>
+<element tag="0020,0032" vr="DS" vm="3" len="32" name="ImagePositionPatient">26.106986\-141.741263\231.561499</element>
+<element tag="0020,0037" vr="DS" vm="6" len="80" name="ImageOrientationPatient">0.000177930303\0.990240602\-0.139368285\0.00254091924\-0.139368281\-0.990237358</element>
+<element tag="0020,0052" vr="UI" vm="1" len="62" name="FrameOfReferenceUID">1.3.46.670589.11.0.0.11.4.2.0.5555.5.4400.2010100811382970000</element>
+<element tag="0020,0100" vr="IS" vm="1" len="2" name="TemporalPositionIdentifier">1</element>
+<element tag="0020,1040" vr="LO" vm="0" len="0" name="PositionReferenceIndicator"></element>
+<element tag="0020,4000" vr="LT" vm="1" len="8" name="ImageComments">MeVisLab</element>
+<element tag="0021,0010" vr="LO" vm="1" len="32" name="PrivateCreator">MeVis eD: Timepoint Information</element>
+<element tag="0021,1010" vr="LT" vm="1" len="22" name="Unknown Tag &amp; Data">20101008 114127.850000</element>
+<element tag="0021,1011" vr="CS" vm="1" len="8" name="Unknown Tag &amp; Data">UNKNOWN</element>
+<element tag="0028,0000" vr="UL" vm="1" len="4" name="GenericGroupLength">206</element>
+<element tag="0028,0002" vr="US" vm="1" len="2" name="SamplesPerPixel">1</element>
+<element tag="0028,0004" vr="CS" vm="1" len="12" name="PhotometricInterpretation">MONOCHROME2</element>
+<element tag="0028,0008" vr="IS" vm="1" len="2" name="NumberOfFrames">12</element>
+<element tag="0028,0010" vr="US" vm="1" len="2" name="Rows">640</element>
+<element tag="0028,0011" vr="US" vm="1" len="2" name="Columns">640</element>
+<element tag="0028,0030" vr="DS" vm="2" len="18" name="PixelSpacing">0.546875\0.546875</element>
+<element tag="0028,0034" vr="IS" vm="2" len="4" name="PixelAspectRatio">1\1</element>
+<element tag="0028,0100" vr="US" vm="1" len="2" name="BitsAllocated">16</element>
+<element tag="0028,0101" vr="US" vm="1" len="2" name="BitsStored">16</element>
+<element tag="0028,0102" vr="US" vm="1" len="2" name="HighBit">15</element>
+<element tag="0028,0103" vr="US" vm="1" len="2" name="PixelRepresentation">0</element>
+<element tag="0028,0106" vr="US" vm="1" len="2" name="SmallestImagePixelValue">0</element>
+<element tag="0028,0107" vr="US" vm="1" len="2" name="LargestImagePixelValue">1307</element>
+<element tag="0028,1050" vr="DS" vm="1" len="6" name="WindowCenter">317.46</element>
+<element tag="0028,1051" vr="DS" vm="1" len="8" name="WindowWidth">551.867</element>
+<element tag="0028,2110" vr="CS" vm="1" len="2" name="LossyImageCompression">00</element>
+<element tag="0028,2112" vr="DS" vm="0" len="0" name="LossyImageCompressionRatio"></element>
+<element tag="0032,0000" vr="UL" vm="1" len="4" name="GenericGroupLength">14</element>
+<element tag="0032,1060" vr="LO" vm="1" len="6" name="RequestedProcedureDescription">MR LWS</element>
+<element tag="0040,0000" vr="UL" vm="1" len="4" name="GenericGroupLength">194</element>
+<element tag="0040,0241" vr="AE" vm="1" len="6" name="PerformedStationAETitle">NTSCAN</element>
+<element tag="0040,0244" vr="DA" vm="1" len="8" name="PerformedProcedureStepStartDate">20101008</element>
+<element tag="0040,0245" vr="TM" vm="1" len="6" name="PerformedProcedureStepStartTime">113934</element>
+<element tag="0040,0250" vr="DA" vm="1" len="8" name="PerformedProcedureStepEndDate">20101008</element>
+<element tag="0040,0251" vr="TM" vm="1" len="6" name="PerformedProcedureStepEndTime">113934</element>
+<element tag="0040,0253" vr="SH" vm="1" len="10" name="PerformedProcedureStepID">339680374</element>
+<element tag="0040,0254" vr="LO" vm="1" len="4" name="PerformedProcedureStepDescription">LWS</element>
+<sequence tag="0040,0275" vr="SQ" card="1" len="52" name="RequestAttributesSequence">
+<item card="4" len="44">
+<element tag="0040,0000" vr="UL" vm="1" len="4" name="GenericGroupLength">32</element>
+<element tag="0040,0007" vr="LO" vm="0" len="0" name="ScheduledProcedureStepDescription"></element>
+<element tag="0040,0009" vr="SH" vm="1" len="2" name="ScheduledProcedureStepID">1</element>
+<element tag="0040,1001" vr="SH" vm="1" len="6" name="RequestedProcedureID">467753</element>
+</item>
+</sequence>
+<sequence tag="0040,0321" vr="SQ" card="0" len="0" name="FilmConsumptionSequence">
+</sequence>
+<element tag="0040,1001" vr="SH" vm="1" len="6" name="RequestedProcedureID">467753</element>
+<element tag="2001,0010" vr="LO" vm="1" len="22" name="PrivateCreator">Philips Imaging DD 001</element>
+<element tag="2001,0090" vr="LO" vm="1" len="22" name="PrivateCreator">Philips Imaging DD 129</element>
+<element tag="2001,1001" vr="FL" vm="1" len="4" name="ChemicalShift">0</element>
+<element tag="2001,1002" vr="IS" vm="1" len="2" name="ChemicalShiftNumberMR">0</element>
+<element tag="2001,1003" vr="FL" vm="1" len="4" name="DiffusionBFactor">0</element>
+<element tag="2001,1006" vr="CS" vm="1" len="2" name="ImageEnhanced">N</element>
+<element tag="2001,1007" vr="CS" vm="1" len="2" name="ImageTypeEDES">U</element>
+<element tag="2001,1008" vr="IS" vm="1" len="2" name="PhaseNumber">1</element>
+<element tag="2001,1009" vr="FL" vm="1" len="4" name="ImagePrepulseDelay">0</element>
+<element tag="2001,100b" vr="CS" vm="1" len="8" name="SliceOrientation">SAGITTAL</element>
+<element tag="2001,100c" vr="CS" vm="1" len="2" name="ArrhythmiaRejection">N</element>
+<element tag="2001,100e" vr="CS" vm="1" len="2" name="CardiacCycled">N</element>
+<element tag="2001,100f" vr="SS" vm="1" len="2" name="CardiacGateWidth">0</element>
+<element tag="2001,1010" vr="CS" vm="1" len="2" name="CardiacSync">NO</element>
+<element tag="2001,1011" vr="FL" vm="1" len="4" name="DiffusionEchoTime">0</element>
+<element tag="2001,1012" vr="CS" vm="1" len="2" name="DynamicSeries">N</element>
+<element tag="2001,1013" vr="SL" vm="1" len="4" name="EPIFactor">1</element>
+<element tag="2001,1014" vr="SL" vm="1" len="4" name="NumberOfEchoes">1</element>
+<element tag="2001,1015" vr="SS" vm="1" len="2" name="NumberOfLocations">1</element>
+<element tag="2001,1016" vr="SS" vm="1" len="2" name="NumberOfPCDirections">0</element>
+<element tag="2001,1017" vr="SL" vm="1" len="4" name="NumberOfPhasesMR">1</element>
+<element tag="2001,1018" vr="SL" vm="1" len="4" name="NumberOfSlicesMR">12</element>
+<element tag="2001,1019" vr="CS" vm="1" len="2" name="PartialMatrixScanned">N</element>
+<element tag="2001,101a" vr="FL" vm="3" len="12" name="PCVelocity">0\0\0</element>
+<element tag="2001,101b" vr="FL" vm="1" len="4" name="PrepulseDelay">0</element>
+<element tag="2001,101c" vr="CS" vm="1" len="2" name="PrepulseType">NO</element>
+<element tag="2001,101d" vr="IS" vm="1" len="2" name="ReconstructionNumberMR">1</element>
+<element tag="2001,101f" vr="CS" vm="1" len="2" name="RespirationSync">NO</element>
+<element tag="2001,1020" vr="LO" vm="1" len="4" name="ScanningTechnique">TSE</element>
+<element tag="2001,1021" vr="CS" vm="1" len="2" name="SPIR">N</element>
+<element tag="2001,1022" vr="FL" vm="1" len="4" name="WaterFatShift">1.7301177</element>
+<element tag="2001,1023" vr="DS" vm="1" len="4" name="FlipAnglePhilips">90.0</element>
+<element tag="2001,1024" vr="CS" vm="1" len="2" name="SeriesIsInteractive">N</element>
+<element tag="2001,1025" vr="SH" vm="1" len="4" name="EchoTimeDisplayMR">110</element>
+<sequence tag="2001,105f" vr="SQ" card="1" len="398" name="StackSequence">
+<item card="28" len="390">
+<element tag="2001,0000" vr="UL" vm="1" len="4" name="PrivateGroupLength">88</element>
+<element tag="2001,0010" vr="LO" vm="1" len="22" name="PrivateCreator">Philips Imaging DD 001</element>
+<element tag="2001,102d" vr="SS" vm="1" len="2" name="StackNumberOfSlices">12</element>
+<element tag="2001,1032" vr="FL" vm="1" len="4" name="StackRadialAngle">0</element>
+<element tag="2001,1033" vr="CS" vm="1" len="2" name="StackRadialAxis">AP</element>
+<element tag="2001,1035" vr="SS" vm="1" len="2" name="StackSliceNumber">1</element>
+<element tag="2001,1036" vr="CS" vm="1" len="8" name="StackType">PARALLEL</element>
+<element tag="2005,0000" vr="UL" vm="1" len="4" name="PrivateGroupLength">278</element>
+<element tag="2005,0010" vr="LO" vm="1" len="26" name="PrivateCreator">Philips MR Imaging DD 001</element>
+<element tag="2005,0013" vr="LO" vm="1" len="26" name="PrivateCreator">Philips MR Imaging DD 004</element>
+<element tag="2005,1071" vr="FL" vm="1" len="4" name="Unknown Tag &amp; Data">-0.14558411</element>
+<element tag="2005,1072" vr="FL" vm="1" len="4" name="Unknown Tag &amp; Data">-0.010194688</element>
+<element tag="2005,1073" vr="FL" vm="1" len="4" name="Unknown Tag &amp; Data">-8.01131916</element>
+<element tag="2005,1074" vr="FL" vm="1" len="4" name="Unknown Tag &amp; Data">350</element>
+<element tag="2005,1075" vr="FL" vm="1" len="4" name="Unknown Tag &amp; Data">350</element>
+<element tag="2005,1076" vr="FL" vm="1" len="4" name="Unknown Tag &amp; Data">52.400002</element>
+<element tag="2005,1078" vr="FL" vm="1" len="4" name="Unknown Tag &amp; Data">7.1570821</element>
+<element tag="2005,1079" vr="FL" vm="1" len="4" name="Unknown Tag &amp; Data">33.819023</element>
+<element tag="2005,107a" vr="FL" vm="1" len="4" name="Unknown Tag &amp; Data">2.3828626</element>
+<element tag="2005,107b" vr="CS" vm="1" len="2" name="Unknown Tag &amp; Data">FH</element>
+<element tag="2005,107e" vr="FL" vm="1" len="4" name="Unknown Tag &amp; Data">4.4000001</element>
+<element tag="2005,1081" vr="CS" vm="1" len="2" name="Unknown Tag &amp; Data">RL</element>
+<element tag="2005,10a3" vr="IS" vm="1" len="2" name="Unknown Tag &amp; Data">36</element>
+<element tag="2005,10a4" vr="IS" vm="1" len="2" name="Unknown Tag &amp; Data">0</element>
+<element tag="2005,10a5" vr="IS" vm="1" len="2" name="Unknown Tag &amp; Data">0</element>
+<element tag="2005,10a6" vr="IS" vm="1" len="4" name="Unknown Tag &amp; Data">2345</element>
+<element tag="2005,10a7" vr="CS" vm="1" len="8" name="Unknown Tag &amp; Data">DEFAULT</element>
+<element tag="2005,1390" vr="CS" vm="1" len="4" name="Unknown Tag &amp; Data">R_A</element>
+</item>
+</sequence>
+<element tag="2001,1060" vr="SL" vm="1" len="4" name="NumberOfStacks">1</element>
+<element tag="2001,1061" vr="CS" vm="1" len="2" name="SeriesTransmitted">N</element>
+<element tag="2001,1062" vr="CS" vm="1" len="2" name="SeriesCommitted">N</element>
+<element tag="2001,1063" vr="CS" vm="1" len="10" name="ExaminationSource">ELSEWHERE</element>
+<element tag="2001,106e" vr="SH" vm="1" len="8" name="Unknown Tag &amp; Data">MRSERIES</element>
+<element tag="2001,107b" vr="IS" vm="1" len="2" name="AcquisitionNumber">3</element>
+<element tag="2001,1081" vr="IS" vm="1" len="2" name="NumberOfDynamicScans">1</element>
+<element tag="2001,1082" vr="IS" vm="1" len="2" name="Unknown Tag &amp; Data">0</element>
+<element tag="2001,1083" vr="DS" vm="1" len="16" name="Unknown Tag &amp; Data">63.9012119999999</element>
+<element tag="2001,1084" vr="DS" vm="1" len="4" name="Unknown Tag &amp; Data">0.0</element>
+<element tag="2001,1085" vr="DS" vm="1" len="4" name="Unknown Tag &amp; Data">1.5</element>
+<element tag="2001,1086" vr="IS" vm="1" len="2" name="Unknown Tag &amp; Data">0</element>
+<element tag="2001,1087" vr="SH" vm="1" len="2" name="Unknown Tag &amp; Data">1H</element>
+<element tag="2001,1088" vr="DS" vm="1" len="4" name="Unknown Tag &amp; Data">3.0</element>
+<element tag="2001,1089" vr="DS" vm="1" len="4" name="Unknown Tag &amp; Data">0.0</element>
+<element tag="2001,108a" vr="DS" vm="1" len="4" name="Unknown Tag &amp; Data">0.0</element>
+<element tag="2001,108b" vr="SH" vm="1" len="2" name="Unknown Tag &amp; Data">B</element>
+<element tag="2001,10c8" vr="LO" vm="1" len="10" name="Unknown Tag &amp; Data">LWS CLEAR</element>
+<element tag="2005,0000" vr="UL" vm="1" len="4" name="PrivateGroupLength">2698</element>
+<element tag="2005,0010" vr="LO" vm="1" len="26" name="PrivateCreator">Philips MR Imaging DD 001</element>
+<element tag="2005,0011" vr="LO" vm="1" len="26" name="PrivateCreator">Philips MR Imaging DD 002</element>
+<element tag="2005,0012" vr="LO" vm="1" len="26" name="PrivateCreator">Philips MR Imaging DD 003</element>
+<element tag="2005,0013" vr="LO" vm="1" len="26" name="PrivateCreator">Philips MR Imaging DD 004</element>
+<element tag="2005,0014" vr="LO" vm="1" len="26" name="PrivateCreator">Philips MR Imaging DD 005</element>
+<element tag="2005,1000" vr="FL" vm="1" len="4" name="Unknown Tag &amp; Data">-0.14558411</element>
+<element tag="2005,1001" vr="FL" vm="1" len="4" name="Unknown Tag &amp; Data">-0.010194688</element>
+<element tag="2005,1002" vr="FL" vm="1" len="4" name="Unknown Tag &amp; Data">-8.01131916</element>
+<element tag="2005,1004" vr="CS" vm="1" len="4" name="Unknown Tag &amp; Data">NONE</element>
+<element tag="2005,100c" vr="FL" vm="1" len="4" name="Unknown Tag &amp; Data">0</element>
+<element tag="2005,100d" vr="FL" vm="1" len="4" name="Unknown Tag &amp; Data">0</element>
+<element tag="2005,100e" vr="FL" vm="1" len="4" name="Unknown Tag &amp; Data">0.11491923</element>
+<element tag="2005,1011" vr="CS" vm="1" len="2" name="Unknown Tag &amp; Data">M</element>
+<element tag="2005,1012" vr="CS" vm="1" len="2" name="Unknown Tag &amp; Data">N</element>
+<element tag="2005,1013" vr="CS" vm="1" len="2" name="Unknown Tag &amp; Data">NO</element>
+<element tag="2005,1014" vr="CS" vm="1" len="2" name="Unknown Tag &amp; Data">N</element>
+<element tag="2005,1015" vr="CS" vm="1" len="2" name="Unknown Tag &amp; Data">N</element>
+<element tag="2005,1016" vr="CS" vm="1" len="2" name="Unknown Tag &amp; Data">Y</element>
+<element tag="2005,1017" vr="CS" vm="1" len="2" name="Unknown Tag &amp; Data">N</element>
+<element tag="2005,1019" vr="CS" vm="1" len="2" name="Unknown Tag &amp; Data">N</element>
+<element tag="2005,101a" vr="SS" vm="1" len="2" name="Unknown Tag &amp; Data">0</element>
+<element tag="2005,101b" vr="CS" vm="1" len="2" name="Unknown Tag &amp; Data">N</element>
+<element tag="2005,101c" vr="CS" vm="1" len="2" name="Unknown Tag &amp; Data">N</element>
+<element tag="2005,101d" vr="SS" vm="1" len="2" name="Unknown Tag &amp; Data">336</element>
+<element tag="2005,101e" vr="SH" vm="1" len="8" name="MIPProtocol">compose</element>
+<element tag="2005,101f" vr="SH" vm="1" len="8" name="MPRProtocol">compose</element>
+<element tag="2005,1020" vr="SL" vm="1" len="4" name="NumberOfChemicalShifts">0</element>
+<element tag="2005,1021" vr="SS" vm="1" len="2" name="Unknown Tag &amp; Data">1</element>
+<element tag="2005,1022" vr="IS" vm="1" len="2" name="Unknown Tag &amp; Data">0</element>
+<element tag="2005,1023" vr="SS" vm="1" len="2" name="Unknown Tag &amp; Data">1</element>
+<element tag="2005,1025" vr="SS" vm="1" len="2" name="Unknown Tag &amp; Data">0</element>
+<element tag="2005,1026" vr="CS" vm="1" len="2" name="Unknown Tag &amp; Data">Y</element>
+<element tag="2005,1027" vr="CS" vm="1" len="8" name="Unknown Tag &amp; Data">MINIMUM</element>
+<element tag="2005,1028" vr="CS" vm="1" len="2" name="Unknown Tag &amp; Data">N</element>
+<element tag="2005,1029" vr="CS" vm="1" len="2" name="Unknown Tag &amp; Data">N</element>
+<element tag="2005,102a" vr="IS" vm="1" len="10" name="Unknown Tag &amp; Data">348925119</element>
+<element tag="2005,102b" vr="SS" vm="1" len="2" name="Unknown Tag &amp; Data">100</element>
+<element tag="2005,102c" vr="CS" vm="1" len="2" name="Unknown Tag &amp; Data">N</element>
+<element tag="2005,102d" vr="IS" vm="1" len="2" name="NumberOfStackSlices">0</element>
+<element tag="2005,102e" vr="CS" vm="1" len="2" name="Unknown Tag &amp; Data">N</element>
+<element tag="2005,102f" vr="CS" vm="1" len="2" name="Unknown Tag &amp; Data">Y</element>
+<element tag="2005,1030" vr="FL" vm="1" len="4" name="Unknown Tag &amp; Data">2666.8513</element>
+<element tag="2005,1031" vr="CS" vm="1" len="2" name="Unknown Tag &amp; Data">N</element>
+<element tag="2005,1033" vr="FL" vm="1" len="4" name="Unknown Tag &amp; Data">136.0094147</element>
+<element tag="2005,1034" vr="CS" vm="1" len="2" name="Unknown Tag &amp; Data">Y</element>
+<element tag="2005,1035" vr="CS" vm="1" len="6" name="Unknown Tag &amp; Data">PIXEL</element>
+<element tag="2005,1036" vr="CS" vm="1" len="2" name="Unknown Tag &amp; Data">N</element>
+<element tag="2005,1037" vr="CS" vm="1" len="2" name="Unknown Tag &amp; Data">N</element>
+<element tag="2005,1038" vr="CS" vm="1" len="2" name="Unknown Tag &amp; Data">N</element>
+<element tag="2005,1039" vr="CS" vm="1" len="2" name="Unknown Tag &amp; Data">N</element>
+<element tag="2005,103b" vr="CS" vm="1" len="2" name="Unknown Tag &amp; Data">N</element>
+<element tag="2005,103c" vr="CS" vm="1" len="2" name="Unknown Tag &amp; Data">N</element>
+<element tag="2005,103d" vr="SS" vm="1" len="2" name="Unknown Tag &amp; Data">102</element>
+<element tag="2005,103e" vr="SL" vm="102" len="408" name="Unknown Tag &amp; Data">0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0</element>
+<element tag="2005,105f" vr="CS" vm="1" len="8" name="Unknown Tag &amp; Data">UNKNOWN</element>
+<element tag="2005,1060" vr="IS" vm="1" len="2" name="Unknown Tag &amp; Data">-1</element>
+<element tag="2005,1061" vr="CS" vm="1" len="2" name="Unknown Tag &amp; Data">NO</element>
+<element tag="2005,1063" vr="SS" vm="1" len="2" name="Unknown Tag &amp; Data">0</element>
+<element tag="2005,106e" vr="CS" vm="1" len="2" name="Unknown Tag &amp; Data">SE</element>
+<element tag="2005,106f" vr="CS" vm="1" len="2" name="Unknown Tag &amp; Data">MS</element>
+<sequence tag="2005,1080" vr="SQ" card="0" len="0" name="Unknown Tag &amp; Data">
+</sequence>
+<sequence tag="2005,1083" vr="SQ" card="1" len="184" name="Unknown">
+<item card="13" len="176">
+<element tag="2005,0000" vr="UL" vm="1" len="4" name="PrivateGroupLength">164</element>
+<element tag="2005,0010" vr="LO" vm="1" len="26" name="PrivateCreator">Philips MR Imaging DD 001</element>
+<element tag="2005,104e" vr="FL" vm="1" len="4" name="Unknown Tag &amp; Data">0</element>
+<element tag="2005,104f" vr="FL" vm="1" len="4" name="Unknown Tag &amp; Data">-36.126053</element>
+<element tag="2005,1050" vr="FL" vm="1" len="4" name="Unknown Tag &amp; Data">-134.10936</element>
+<element tag="2005,1051" vr="FL" vm="1" len="4" name="Unknown Tag &amp; Data">22.874193</element>
+<element tag="2005,1052" vr="CS" vm="1" len="4" name="Unknown Tag &amp; Data">SLAB</element>
+<element tag="2005,1053" vr="CS" vm="1" len="2" name="Unknown Tag &amp; Data">AP</element>
+<element tag="2005,1069" vr="FL" vm="1" len="4" name="Unknown Tag &amp; Data">-0.32656181</element>
+<element tag="2005,106a" vr="FL" vm="1" len="4" name="Unknown Tag &amp; Data">0.75869882</element>
+<element tag="2005,106b" vr="FL" vm="1" len="4" name="Unknown Tag &amp; Data">43.424129</element>
+<element tag="2005,106c" vr="FL" vm="1" len="4" name="Unknown Tag &amp; Data">60</element>
+<element tag="2005,106d" vr="FL" vm="1" len="4" name="Unknown Tag &amp; Data">0</element>
+</item>
+</sequence>
+<sequence tag="2005,1084" vr="SQ" card="0" len="0" name="Unknown Tag &amp; Data">
+</sequence>
+<sequence tag="2005,1085" vr="SQ" card="0" len="0" name="Unknown Tag &amp; Data">
+</sequence>
+<element tag="2005,1086" vr="SS" vm="1" len="2" name="Unknown Tag &amp; Data">0</element>
+<sequence tag="2005,109e" vr="SQ" card="0" len="0" name="Unknown Tag &amp; Data">
+</sequence>
+<element tag="2005,10a0" vr="FL" vm="1" len="4" name="Unknown Tag &amp; Data">0</element>
+<element tag="2005,10a1" vr="CS" vm="1" len="8" name="SyncraScanType">SYN_COCA</element>
+<element tag="2005,10a2" vr="CS" vm="1" len="2" name="Unknown Tag &amp; Data">N</element>
+<element tag="2005,10a8" vr="DS" vm="1" len="4" name="Unknown Tag &amp; Data">0.0</element>
+<element tag="2005,10a9" vr="CS" vm="1" len="2" name="Unknown Tag &amp; Data">NA</element>
+<element tag="2005,10b0" vr="FL" vm="1" len="4" name="DiffusionDirectionRL">0</element>
+<element tag="2005,10b1" vr="FL" vm="1" len="4" name="DiffusionDirectionAP">0</element>
+<element tag="2005,10b2" vr="FL" vm="1" len="4" name="DiffusionDirectionFH">0</element>
+<element tag="2005,10c0" vr="CS" vm="1" len="2" name="Unknown Tag &amp; Data">SE</element>
+<element tag="2005,1199" vr="UL" vm="1" len="4" name="Unknown Tag &amp; Data">1</element>
+<element tag="2005,1200" vr="UL" vm="1" len="4" name="Unknown Tag &amp; Data">1</element>
+<element tag="2005,1201" vr="UL" vm="1" len="4" name="Unknown Tag &amp; Data">0</element>
+<element tag="2005,1213" vr="UL" vm="1" len="4" name="Unknown Tag &amp; Data">1</element>
+<element tag="2005,1245" vr="SS" vm="1" len="2" name="Unknown Tag &amp; Data">2</element>
+<element tag="2005,1249" vr="SS" vm="1" len="2" name="Unknown Tag &amp; Data">0</element>
+<element tag="2005,1251" vr="SS" vm="1" len="2" name="Unknown Tag &amp; Data">0</element>
+<element tag="2005,1252" vr="SS" vm="1" len="2" name="Unknown Tag &amp; Data">1</element>
+<element tag="2005,1253" vr="SS" vm="1" len="2" name="Unknown Tag &amp; Data">1</element>
+<element tag="2005,1325" vr="CS" vm="1" len="2" name="Unknown Tag &amp; Data">N</element>
+<element tag="2005,1326" vr="FL" vm="1" len="4" name="Unknown Tag &amp; Data">0</element>
+<element tag="2005,1327" vr="CS" vm="1" len="4" name="Unknown Tag &amp; Data">REAL</element>
+<element tag="2005,1328" vr="CS" vm="1" len="8" name="Unknown Tag &amp; Data">ORIGINAL</element>
+<element tag="2005,1329" vr="FL" vm="1" len="4" name="Unknown Tag &amp; Data">50</element>
+<element tag="2005,1330" vr="CS" vm="4" len="56" name="Unknown Tag &amp; Data">PLUS_A_PLUS_B\PLUS_A_PLUS_B\PLUS_A_PLUS_B\PLUS_A_PLUS_B</element>
+<element tag="2005,1331" vr="SS" vm="1" len="2" name="Unknown Tag &amp; Data">0</element>
+<element tag="2005,1333" vr="FL" vm="3" len="12" name="Unknown Tag &amp; Data">0\0\0</element>
+<element tag="2005,1334" vr="CS" vm="1" len="8" name="Unknown Tag &amp; Data">UNKNOWN</element>
+<element tag="2005,1335" vr="CS" vm="1" len="8" name="Unknown Tag &amp; Data">UNKNOWN</element>
+<element tag="2005,1336" vr="FL" vm="1" len="4" name="Unknown Tag &amp; Data">0</element>
+<element tag="2005,1337" vr="FL" vm="1" len="4" name="Unknown Tag &amp; Data">0</element>
+<element tag="2005,1338" vr="FL" vm="1" len="4" name="Unknown Tag &amp; Data">0</element>
+<element tag="2005,1339" vr="SS" vm="2" len="4" name="Unknown Tag &amp; Data">0\0</element>
+<element tag="2005,1340" vr="CS" vm="1" len="6" name="Unknown Tag &amp; Data">PRE_FT</element>
+<element tag="2005,1341" vr="CS" vm="1" len="8" name="Unknown Tag &amp; Data">UNKNOWN</element>
+<element tag="2005,1342" vr="CS" vm="1" len="4" name="Unknown Tag &amp; Data">FID</element>
+<element tag="2005,1343" vr="CS" vm="1" len="2" name="Unknown Tag &amp; Data">Y</element>
+<element tag="2005,1344" vr="SS" vm="40" len="80" name="Unknown Tag &amp; Data">0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0</element>
+<element tag="2005,1345" vr="CS" vm="1" len="2" name="Unknown Tag &amp; Data">NO</element>
+<element tag="2005,1346" vr="CS" vm="1" len="6" name="Unknown Tag &amp; Data">HERTZ</element>
+<element tag="2005,1347" vr="FL" vm="1" len="4" name="Unknown Tag &amp; Data">0</element>
+<element tag="2005,1348" vr="CS" vm="1" len="4" name="Unknown Tag &amp; Data">OFF</element>
+<element tag="2005,1349" vr="FL" vm="1" len="4" name="Unknown Tag &amp; Data">0</element>
+<element tag="2005,1350" vr="FL" vm="2" len="8" name="Unknown Tag &amp; Data">0\0</element>
+<element tag="2005,1351" vr="SS" vm="1" len="2" name="Unknown Tag &amp; Data">0</element>
+<element tag="2005,1352" vr="SS" vm="1" len="2" name="Unknown Tag &amp; Data">0</element>
+<element tag="2005,1355" vr="FL" vm="30" len="120" name="Unknown Tag &amp; Data">0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0</element>
+<element tag="2005,1356" vr="CS" vm="1" len="2" name="Unknown Tag &amp; Data">NO</element>
+<element tag="2005,1357" vr="SS" vm="1" len="2" name="Unknown Tag &amp; Data">0</element>
+<element tag="2005,1359" vr="FL" vm="1" len="4" name="Unknown Tag &amp; Data">1</element>
+<element tag="2005,1360" vr="FL" vm="1" len="4" name="Unknown Tag &amp; Data">0</element>
+<element tag="2005,1361" vr="FL" vm="2" len="8" name="Unknown Tag &amp; Data">0\0</element>
+<element tag="2005,1362" vr="FL" vm="1" len="4" name="Unknown Tag &amp; Data">0</element>
+<element tag="2005,1363" vr="FL" vm="1" len="4" name="Unknown Tag &amp; Data">0</element>
+<element tag="2005,1364" vr="CS" vm="1" len="2" name="Unknown Tag &amp; Data">NO</element>
+<element tag="2005,1370" vr="SS" vm="1" len="2" name="Unknown Tag &amp; Data">0</element>
+<sequence tag="2005,1371" vr="SQ" card="0" len="0" name="Unknown Tag &amp; Data">
+</sequence>
+<element tag="2005,1381" vr="IS" vm="1" len="2" name="Unknown Tag &amp; Data">3</element>
+<element tag="2005,1382" vr="UL" vm="1" len="4" name="Unknown Tag &amp; Data">1</element>
+<element tag="2005,1391" vr="PN" vm="0" len="0" name="Unknown Tag &amp; Data"></element>
+<element tag="2005,1392" vr="IS" vm="1" len="2" name="Unknown Tag &amp; Data">0</element>
+<element tag="2005,1393" vr="IS" vm="1" len="2" name="Unknown Tag &amp; Data">-1</element>
+<element tag="2005,1395" vr="UI" vm="1" len="64" name="Unknown Tag &amp; Data">6111111111111111111111111111111111111111111111111111111111111111</element>
+<element tag="2005,1396" vr="CS" vm="1" len="2" name="Unknown Tag &amp; Data">NO</element>
+<element tag="2005,1398" vr="CS" vm="1" len="2" name="Unknown Tag &amp; Data">NO</element>
+<element tag="2005,1399" vr="CS" vm="1" len="2" name="Unknown Tag &amp; Data">NO</element>
+<element tag="2005,1400" vr="CS" vm="1" len="4" name="Unknown Tag &amp; Data">YES</element>
+<element tag="2005,1401" vr="UL" vm="1" len="4" name="Unknown Tag &amp; Data">1</element>
+<sequence tag="2005,1402" vr="SQ" card="1" len="78" name="Unknown">
+<item card="7" len="70">
+<element tag="0008,0000" vr="UL" vm="1" len="4" name="GenericGroupLength">58</element>
+<element tag="0008,0100" vr="SH" vm="0" len="0" name="CodeValue"></element>
+<element tag="0008,0102" vr="SH" vm="1" len="8" name="CodingSchemeDesignator">unknown</element>
+<element tag="0008,0103" vr="SH" vm="0" len="0" name="CodingSchemeVersion"></element>
+<element tag="0008,0104" vr="LO" vm="0" len="0" name="CodeMeaning"></element>
+<element tag="0008,010b" vr="CS" vm="1" len="2" name="ContextGroupExtensionFlag">N</element>
+<element tag="0008,010d" vr="UI" vm="0" len="0" name="ContextGroupExtensionCreatorUID"></element>
+</item>
+</sequence>
+<element tag="2005,1403" vr="UL" vm="1" len="4" name="Unknown Tag &amp; Data">1</element>
+<element tag="2005,1406" vr="SS" vm="1" len="2" name="Unknown Tag &amp; Data">0</element>
+<element tag="2005,1409" vr="DS" vm="1" len="4" name="Unknown Tag &amp; Data">0.0</element>
+<element tag="2005,140a" vr="DS" vm="1" len="16" name="Unknown Tag &amp; Data">2.52551892551892</element>
+<element tag="2005,140b" vr="LO" vm="1" len="10" name="Unknown Tag &amp; Data">normalized</element>
+<element tag="2050,0000" vr="UL" vm="1" len="4" name="GenericGroupLength">16</element>
+<element tag="2050,0020" vr="CS" vm="1" len="8" name="PresentationLUTShape">IDENTITY</element>
+<element tag="7fe0,0010" vr="OW" vm="1" len="9830400" name="PixelData" loaded="no" binary="hidden"></element>
+</data-set>
+</file-format>

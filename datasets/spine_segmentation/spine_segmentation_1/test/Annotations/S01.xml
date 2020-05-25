@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<file-format>
+<meta-header xfer="1.2.840.10008.1.2.1" name="Little Endian Explicit">
+<element tag="0002,0000" vr="UL" vm="1" len="4" name="FileMetaInformationGroupLength">208</element>
+<element tag="0002,0001" vr="OB" vm="1" len="2" name="FileMetaInformationVersion" binary="hidden"></element>
+<element tag="0002,0002" vr="UI" vm="1" len="26" name="MediaStorageSOPClassUID">1.2.840.10008.5.1.4.1.1.4</element>
+<element tag="0002,0003" vr="UI" vm="1" len="64" name="MediaStorageSOPInstanceUID">1.2.276.0.28.3.3771420412.3473473536.42.3616.2013040511295145900</element>
+<element tag="0002,0010" vr="UI" vm="1" len="20" name="TransferSyntaxUID">1.2.840.10008.1.2.1</element>
+<element tag="0002,0012" vr="UI" vm="1" len="28" name="ImplementationClassUID">1.2.276.0.7230010.3.0.3.6.0</element>
+<element tag="0002,0013" vr="SH" vm="1" len="16" name="ImplementationVersionName">OFFIS_DCMTK_360</element>
+</meta-header>
+<data-set xfer="1.2.840.10008.1.2.1" name="Little Endian Explicit">
+<element tag="0008,0005" vr="CS" vm="1" len="10" name="SpecificCharacterSet">ISO_IR 100</element>
+<element tag="0008,0008" vr="CS" vm="4" len="32" name="ImageType">DERIVED\SECONDARY\OTHER\MEVISLAB</element>
+<element tag="0008,0012" vr="DA" vm="1" len="8" name="InstanceCreationDate">20110723</element>
+<element tag="0008,0013" vr="TM" vm="1" len="6" name="InstanceCreationTime">113930</element>
+<element tag="0008,0014" vr="UI" vm="1" len="24" name="InstanceCreatorUID">1.3.46.670589.11.24108.5</element>
+<element tag="0008,0016" vr="UI" vm="1" len="26" name="SOPClassUID">1.2.840.10008.5.1.4.1.1.4</element>
+<element tag="0008,0018" vr="UI" vm="1" len="64" name="SOPInstanceUID">1.2.276.0.28.3.3771420412.3473473536.42.3616.2013040511295145900</element>
+<element tag="0008,0020" vr="DA" vm="1" len="8" name="StudyDate">20110723</element>
+<element tag="0008,0021" vr="DA" vm="1" len="8" name="SeriesDate">20110723</element>
+<element tag="0008,0022" vr="DA" vm="1" len="8" name="AcquisitionDate">20110723</element>
+<element tag="0008,0023" vr="DA" vm="1" len="8" name="ContentDate">20110723</element>
+<element tag="0008,002a" vr="DT" vm="1" len="22" name="AcquisitionDateTime">20110723113027.420000</element>
+<element tag="0008,0030" vr="TM" vm="1" len="4" name="StudyTime">1125</element>
+<element tag="0008,0031" vr="TM" vm="1" len="14" name="SeriesTime">113027.420000</element>
+<element tag="0008,0032" vr="TM" vm="1" len="14" name="AcquisitionTime">113027.420000</element>
+<element tag="0008,0033" vr="TM" vm="1" len="14" name="ContentTime">113027.420000</element>
+<element tag="0008,0050" vr="SH" vm="0" len="0" name="AccessionNumber"></element>
+<element tag="0008,0060" vr="CS" vm="1" len="2" name="Modality">MR</element>
+<element tag="0008,0070" vr="LO" vm="1" len="24" name="Manufacturer">Philips Medical Systems</element>
+<element tag="0008,0080" vr="LO" vm="1" len="18" name="InstitutionName">ACHK MR Philips 3T</element>
+<element tag="0008,0090" vr="PN" vm="1" len="22" name="ReferringPhysicianName">Ing.^Viták^Tomáš^MUDr.</element>
+<element tag="0008,0100" vr="SH" vm="0" len="0" name="CodeValue"></element>
+<element tag="0008,0102" vr="SH" vm="1" len="4" name="CodingSchemeDesignator">DCM</element>
+<element tag="0008,0104" vr="LO" vm="0" len="0" name="CodeMeaning"></element>
+<element tag="0008,1010" vr="SH" vm="1" len="16" name="StationName">PHILIPS-DAFFA5E</element>
+<element tag="0008,1030" vr="LO" vm="1" len="8" name="StudyDescription">SPINE_LS</element>
+<element tag="0008,103e" vr="LO" vm="1" len="14" name="SeriesDescription">T2W_DRIVE_SAG</element>
+<element tag="0008,1040" vr="LO" vm="1" len="22" name="InstitutionalDepartmentName">V Hurkach, Praha 5, CR</element>
+<element tag="0008,1090" vr="LO" vm="1" len="8" name="ManufacturerModelName">Achieva</element>
+<sequence tag="0008,1140" vr="SQ" card="3" len="306" name="ReferencedImageSequence">
+<item card="2" len="94">
+<element tag="0008,1150" vr="UI" vm="1" len="26" name="ReferencedSOPClassUID">1.2.840.10008.5.1.4.1.1.4</element>
+<element tag="0008,1155" vr="UI" vm="1" len="52" name="ReferencedSOPInstanceUID">1.3.46.670589.11.24108.5.0.5176.2011072311281903954</element>
+</item>
+<item card="2" len="94">
+<element tag="0008,1150" vr="UI" vm="1" len="26" name="ReferencedSOPClassUID">1.2.840.10008.5.1.4.1.1.4</element>
+<element tag="0008,1155" vr="UI" vm="1" len="52" name="ReferencedSOPInstanceUID">1.3.46.670589.11.24108.5.0.5176.2011072311283135958</element>
+</item>
+<item card="2" len="94">
+<element tag="0008,1150" vr="UI" vm="1" len="26" name="ReferencedSOPClassUID">1.2.840.10008.5.1.4.1.1.4</element>
+<element tag="0008,1155" vr="UI" vm="1" len="52" name="ReferencedSOPInstanceUID">1.3.46.670589.11.24108.5.0.5176.2011072311284362961</element>
+</item>
+</sequence>
+<element tag="0010,0010" vr="PN" vm="1" len="4" name="PatientName">S01</element>
+<element tag="0010,0020" vr="LO" vm="0" len="0" name="PatientID"></element>
+<element tag="0010,0030" vr="DA" vm="0" len="0" name="PatientBirthDate"></element>
+<element tag="0010,0040" vr="CS" vm="1" len="2" name="PatientSex">M</element>
+<element tag="0010,1010" vr="AS" vm="1" len="4" name="PatientAge">065Y</element>
+<element tag="0010,1030" vr="DS" vm="1" len="4" name="PatientWeight">100</element>
+<element tag="0010,21c0" vr="US" vm="1" len="2" name="PregnancyStatus">4</element>
+<element tag="0018,0015" vr="CS" vm="1" len="6" name="BodyPartExamined">LSPINE</element>
+<element tag="0018,0020" vr="CS" vm="1" len="2" name="ScanningSequence">SE</element>
+<element tag="0018,0021" vr="CS" vm="1" len="4" name="SequenceVariant">OSP</element>
+<element tag="0018,0022" vr="CS" vm="1" len="2" name="ScanOptions">FC</element>
+<element tag="0018,0023" vr="CS" vm="1" len="2" name="MRAcquisitionType">2D</element>
+<element tag="0018,0024" vr="SH" vm="0" len="0" name="SequenceName"></element>
+<element tag="0018,0050" vr="DS" vm="1" len="4" name="SliceThickness">3.5</element>
+<element tag="0018,0080" vr="DS" vm="1" len="4" name="RepetitionTime">2500</element>
+<element tag="0018,0081" vr="DS" vm="1" len="4" name="EchoTime">100</element>
+<element tag="0018,0083" vr="DS" vm="1" len="2" name="NumberOfAverages">2</element>
+<element tag="0018,0084" vr="DS" vm="1" len="16" name="ImagingFrequency">127.724409999999</element>
+<element tag="0018,0085" vr="SH" vm="1" len="2" name="ImagedNucleus">1H</element>
+<element tag="0018,0086" vr="IS" vm="1" len="2" name="EchoNumbers">1</element>
+<element tag="0018,0087" vr="DS" vm="1" len="2" name="MagneticFieldStrength">3</element>
+<element tag="0018,0088" vr="DS" vm="1" len="10" name="SpacingBetweenSlices">3.8499985</element>
+<element tag="0018,0089" vr="IS" vm="1" len="4" name="NumberOfPhaseEncodingSteps">298</element>
+<element tag="0018,0091" vr="IS" vm="1" len="2" name="EchoTrainLength">17</element>
+<element tag="0018,0093" vr="DS" vm="1" len="16" name="PercentSampling">79.6542587280273</element>
+<element tag="0018,0094" vr="DS" vm="1" len="16" name="PercentPhaseFieldOfView">136.231883655894</element>
+<element tag="0018,0095" vr="DS" vm="1" len="4" name="PixelBandwidth">217</element>
+<element tag="0018,1000" vr="LO" vm="1" len="6" name="DeviceSerialNumber">24108</element>
+<element tag="0018,1020" vr="LO" vm="2" len="14" name="SoftwareVersions">3.2.1\3.2.1.1</element>
+<element tag="0018,1030" vr="LO" vm="1" len="20" name="ProtocolName">T2W_DRIVE_SAG CLEAR</element>
+<element tag="0018,1081" vr="IS" vm="1" len="2" name="LowRRValue">0</element>
+<element tag="0018,1082" vr="IS" vm="1" len="2" name="HighRRValue">0</element>
+<element tag="0018,1083" vr="IS" vm="1" len="2" name="IntervalsAcquired">0</element>
+<element tag="0018,1084" vr="IS" vm="1" len="2" name="IntervalsRejected">0</element>
+<element tag="0018,1088" vr="IS" vm="1" len="2" name="HeartRate">0</element>
+<element tag="0018,1100" vr="DS" vm="1" len="16" name="ReconstructionDiameter">300.854701995849</element>
+<element tag="0018,1250" vr="SH" vm="1" len="14" name="ReceiveCoilName">SENSE-Spine-15</element>
+<element tag="0018,1251" vr="SH" vm="1" len="2" name="TransmitCoilName">S</element>
+<element tag="0018,1310" vr="US" vm="4" len="8" name="AcquisitionMatrix">376\0\0\298</element>
+<element tag="0018,1312" vr="CS" vm="1" len="4" name="InPlanePhaseEncodingDirection">COL</element>
+<element tag="0018,1314" vr="DS" vm="1" len="2" name="FlipAngle">90</element>
+<element tag="0018,1316" vr="DS" vm="1" len="16" name="SAR">1.22333610057830</element>
+<element tag="0018,1318" vr="DS" vm="1" len="16" name="dBdt">45.9447064340388</element>
+<element tag="0018,5100" vr="CS" vm="1" len="4" name="PatientPosition">HFS</element>
+<element tag="0018,9073" vr="FD" vm="0" len="0" name="AcquisitionDuration"></element>
+<element tag="0018,9087" vr="FD" vm="0" len="0" name="DiffusionBValue"></element>
+<element tag="0018,9089" vr="FD" vm="0" len="0" name="DiffusionGradientOrientation"></element>
+<element tag="0020,000d" vr="UI" vm="1" len="52" name="StudyInstanceUID">1.3.46.670589.11.24108.5.0.7080.2011072311053054254</element>
+<element tag="0020,000e" vr="UI" vm="1" len="52" name="SeriesInstanceUID">1.3.46.670589.11.24108.5.0.5176.2011072311302743005</element>
+<element tag="0020,0010" vr="SH" vm="1" len="10" name="StudyID">364561530</element>
+<element tag="0020,0011" vr="IS" vm="1" len="4" name="SeriesNumber">401</element>
+<element tag="0020,0012" vr="IS" vm="1" len="2" name="AcquisitionNumber">4</element>
+<element tag="0020,0013" vr="IS" vm="1" len="2" name="InstanceNumber">1</element>
+<element tag="0020,0032" vr="DS" vm="3" len="34" name="ImagePositionPatient">31.3114291\-136.460491\141.064362</element>
+<element tag="0020,0037" vr="DS" vm="6" len="80" name="ImageOrientationPatient">0.00608812272\0.999981462\0.000104490195\-0.022336533\0.000240456135\-0.99975048</element>
+<element tag="0020,0100" vr="IS" vm="1" len="2" name="TemporalPositionIdentifier">1</element>
+<element tag="0020,4000" vr="LT" vm="1" len="8" name="ImageComments">MeVisLab</element>
+<element tag="0028,0002" vr="US" vm="1" len="2" name="SamplesPerPixel">1</element>
+<element tag="0028,0004" vr="CS" vm="1" len="12" name="PhotometricInterpretation">MONOCHROME2</element>
+<element tag="0028,0008" vr="IS" vm="1" len="2" name="NumberOfFrames">16</element>
+<element tag="0028,0010" vr="US" vm="1" len="2" name="Rows">640</element>
+<element tag="0028,0011" vr="US" vm="1" len="2" name="Columns">640</element>
+<element tag="0028,0030" vr="DS" vm="2" len="24" name="PixelSpacing">0.470085472\0.470085472</element>
+<element tag="0028,0100" vr="US" vm="1" len="2" name="BitsAllocated">16</element>
+<element tag="0028,0101" vr="US" vm="1" len="2" name="BitsStored">16</element>
+<element tag="0028,0102" vr="US" vm="1" len="2" name="HighBit">15</element>
+<element tag="0028,0103" vr="US" vm="1" len="2" name="PixelRepresentation">0</element>
+<element tag="0028,0106" vr="US" vm="1" len="2" name="SmallestImagePixelValue">0</element>
+<element tag="0028,0107" vr="US" vm="1" len="2" name="LargestImagePixelValue">697</element>
+<element tag="0028,1050" vr="DS" vm="1" len="10" name="WindowCenter">186.358125</element>
+<element tag="0028,1051" vr="DS" vm="1" len="10" name="WindowWidth">323.905625</element>
+<element tag="0028,2110" vr="CS" vm="1" len="2" name="LossyImageCompression">00</element>
+<element tag="0032,4000" vr="LT" vm="1" len="3064" name="RETIRED_StudyComments">MR bederní páteøe&#13;&#10;&#13;&#10;Vyšetøení provedeno od Th10 po sacrum v sagitálních TSE øezech v obrazech T1W, T2W a STIR. Transverzální øezy TSE T2W v úrovni L3-L5.&#13;&#10;&#13;&#10;&#13;&#10;Bederní lordóza je pøimìøená, tìla obratlová normálního tvaru a velikosti. Zúžení páteøního kanálu a foramin spojené s  deformací durálního vaku a útlakem nervových struktur lokalizované v úrovni masivnì široce mediodorzálnì, paramediálnì a foraminálnì ad sin. herniující ploténky L2/3 s pøesahem cca 11mm. Herniující hmoty v páteøním kanále mají rozmìry cca 11x21x24mm (APxLLxCC) vyplòují levostr. foramen L2/3 a komprimují koøen L2 sin. Další zúžení páteøního kanálu a foramin spojené s  deformací durálního vaku a útlakem nervových struktur lokalizované v úrovni široce mediodorzálnì herniující ploténky L3/4 s pøesahem cca 4mm, široce mediodorzálnì a foraminálnì bilat. herniující ploténky L4/5 s pøesahem cca 5mm, dorzálních až posterolaterálních osteofytù lokalizovaných na pøilehlých hranách koresp. obratlových tìl a hypertrofických intervertebrálních skloubení L4-5, L5-S1 bilat. pøi pokroèilé spondylarthrose. Bilat. foraminostenosa L4-5 spondylarthrotické etiologie s útlakem koøenù L4 bilat. Ventrální posun tìla L5 vùèi tìlu S1 o cca 10mm v.s. na podkladì bilat. isthmické spondylolýzy zpùsobuje bilat. foraminostenosu L5-S1 v kraniokaudálním smìru s útlakem koøenù L5 bilat. Osteochondrosa L5-S1 s paradiskálními zmìnami signálu ve smyslu degenerativní end-plate disease typ II. Na zúženích páteøního kanálu se podílí i zesílená ligamenta flava.  Durální vak má rozmìr v úrovni ploténky L2/3, L3/4 cca 6mm v AP smìru ve støední SAG rovinì.  Mícha je štíhlá, hladkých kontur, normálního signálu, konèí u tìla obratle L1.  Meziobratlové ploténky L úseku jsou snížené a jeví známky dehydratace. Známky osteochondrosy a def. spondylosy a spondylarthrosy postihující segment L5-S1. Scheuermannovská stigmatizace ThL pøechodu páteøe. Hemangiom v tìle Th12.&#13;&#10;&#13;&#10;Závìr: Zúžení páteøního kanálu a foramin spojené s  deformací durálního vaku a útlakem nervových struktur lokalizované v úrovni masivnì široce mediodorzálnì, paramediálnì a foraminálnì ad sin. herniující ploténky L2/3 s pøesahem cca 11mm. Herniující hmoty v páteøním kanále vyplòují levostr. foramen L2/3 a komprimují koøen L2 sin. Další zúžení páteøního kanálu a foramin spojené s  deformací durálního vaku a útlakem nervových struktur v úrovni široce mediodorzálnì herniující ploténky L3/4 s pøesahem cca 4mm, široce mediodorzálnì a foraminálnì bilat. herniující ploténky L4/5 s pøesahem cca 5mm, dorzálních až posterolaterálních osteofytù lokalizovaných na pøilehlých hranách koresp. obratlových tìl a hypertrofických intervertebrálních skloubení L4-5, L5-S1 bilat. pøi pokroèilé spondylarthrose. Bilat. foraminostenosa L4-5 spondylarthrotické etiologie s útlakem koøenù L4 bilat. Ventrální posun tìla L5 vùèi tìlu S1 o cca 10mm v.s. na podkladì bilat. isthmické spondylolýzy zpùsobuje bilat. foraminostenosu L5-S1 v kraniokaudálním smìru s útlakem koøenù L5 bilat. Osteochondrosa a def. spondylosa a spondylarthrosa segmentu L5-S1.</element>
+<element tag="0040,0006" vr="PN" vm="0" len="0" name="ScheduledPerformingPhysicianName"></element>
+<element tag="0040,0241" vr="AE" vm="1" len="10" name="PerformedStationAETitle">MRACHIEVA</element>
+<element tag="0040,0244" vr="DA" vm="1" len="8" name="PerformedProcedureStepStartDate">20110723</element>
+<element tag="0040,0245" vr="TM" vm="1" len="6" name="PerformedProcedureStepStartTime">112516</element>
+<element tag="0040,0250" vr="DA" vm="1" len="8" name="PerformedProcedureStepEndDate">20110723</element>
+<element tag="0040,0251" vr="TM" vm="1" len="6" name="PerformedProcedureStepEndTime">112516</element>
+<element tag="0040,0253" vr="SH" vm="1" len="10" name="PerformedProcedureStepID">364561530</element>
+<element tag="0040,0254" vr="LO" vm="1" len="8" name="PerformedProcedureStepDescription">SPINE_LS</element>
+<sequence tag="0040,0260" vr="SQ" card="1" len="72" name="PerformedProtocolCodeSequence">
+<item card="4" len="64">
+<element tag="0008,0100" vr="SH" vm="1" len="10" name="CodeValue">UNDEFINED</element>
+<element tag="0008,0102" vr="SH" vm="1" len="10" name="CodingSchemeDesignator">UNDEFINED</element>
+<element tag="0008,0104" vr="LO" vm="1" len="10" name="CodeMeaning">UNDEFINED</element>
+<element tag="0008,010b" vr="CS" vm="1" len="2" name="ContextGroupExtensionFlag">N</element>
+</item>
+</sequence>
+<sequence tag="0040,0321" vr="SQ" card="0" len="0" name="FilmConsumptionSequence">
+</sequence>
+<sequence tag="0040,9096" vr="SQ" card="1" len="24" name="RealWorldValueMappingSequence">
+<item card="2" len="16">
+<element tag="0040,9224" vr="FD" vm="0" len="0" name="RealWorldValueIntercept"></element>
+<element tag="0040,9225" vr="FD" vm="0" len="0" name="RealWorldValueSlope"></element>
+</item>
+</sequence>
+<element tag="2050,0020" vr="CS" vm="1" len="8" name="PresentationLUTShape">IDENTITY</element>
+<element tag="7fe0,0010" vr="OW" vm="1" len="13107200" name="PixelData" loaded="no" binary="hidden"></element>
+</data-set>
+</file-format>
